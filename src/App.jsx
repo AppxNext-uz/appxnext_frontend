@@ -165,7 +165,7 @@ const App = () => {
                                 </a>
                                 <a className="shadow-2xl" href="/">
                                     <div data-tip="Arashov" className="tooltip py-[10px] hover:-translate-y-1 transition-all rounded-2xl cursor-pointer w-fit">
-                                        <img src={"https://i.ibb.co/NtPtLtN/Untitled-design.png"} alt="logo" className="h-[400px] w-[400px] rounded-2xl object-none" />
+                                        <img src={"https://i.ibb.co/NtPtLtN/Untitled-design.png"} alt="logo" className="h-[400px] w-[400px] rounded-2xl object-fill" />
                                     </div>
                                 </a>
                             </div>
