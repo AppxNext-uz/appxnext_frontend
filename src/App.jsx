@@ -163,9 +163,9 @@ const App = () => {
                                         <img src={"https://kncoder.vercel.app/assets/movigo-52fc2fd2.png"} alt="logo" className="h-[400px] w-[400px] rounded-2xl object-cover" />
                                     </div>
                                 </a>
-                                <a className="shadow-2xl" href="/">
-                                    <div data-tip="Arashov" className="tooltip py-[10px] hover:-translate-y-1 transition-all rounded-2xl cursor-pointer w-fit">
-                                        <img src={arashov} alt="logo" className="h-[400px] w-[400px] rounded-2xl object-cover" />
+                                <a className="shadow-2xl" href="https://play.google.com/store/apps/details?id=uz.dasturchimobile.arashov_trading">
+                                    <div data-tip="Arashov App" className="tooltip py-[10px] hover:-translate-y-1 transition-all rounded-2xl cursor-pointer w-fit">
+                                        <img src={"https://i.ibb.co/NtPtLtN/Untitled-design.png"} alt="logo" className="h-[400px] w-[400px] rounded-2xl object-fill" />
                                     </div>
                                 </a>
                             </div>
