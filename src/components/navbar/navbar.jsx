@@ -10,12 +10,13 @@ const NavbarLink = ({link, children}) => {
 }
 
 const Navbar = () => {
+
     return (
         <div>
             <Wrapper>
-                <div className="flex justify-between items-center border-b-[3px] border-[#191919] flex-col lg:flex-row gap-[10px] lg:gap-0">
+                <div className="flex justify-between items-center pt-[15px] flex-col lg:flex-row gap-[10px] lg:gap-0">
                     <div>
-                        <img src={logo} alt="logo" className="h-[100px] lg:h-[70px] lg:w-[200px] object-cover" />
+                        <img src={logo} alt="logo" className="h-[100px] lg:h-[90px] lg:w-[200px] object-cover" />
                     </div>
                     <div className="hidden items-center gap-[45px] lg:flex">
                         <NavbarLink link={"whyus"}>Why us</NavbarLink>
@@ -23,25 +24,29 @@ const Navbar = () => {
                         <NavbarLink link={"testimonials"}>Testimonials</NavbarLink>
                         <NavbarLink link={"faq"}>FAQ</NavbarLink>
                     </div>
-                    <div className="drawer lg:hidden absolute top-[10px] right-[0px] drawer-end">
+                    <div className="drawer lg:hidden z-50 absolute w-full top-[10px] left-[0px] drawer-end">
                         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
-                        <div className="drawer-content absolute right-[10px] top-[10px]">
+                        <div className="drawer-content absolute left-[10px] top-[10px]">
                             <label htmlFor="my-drawer-4" className="drawer-button btn btn-primary bg-[#5D45FD] hover:bg-[#4d42c5]"><i className="fa-solid fa-bars"></i></label>
                         </div> 
                         <div className="drawer-side">
                             <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
-                            <ul className="menu p-4 w-60 min-h-full bg-base-200 text-base-content flex flex-col gap-[10px]">
-                                <h1>MENU</h1>
-                                <NavbarLink link={"whyus"}>Why us</NavbarLink>
-                                <NavbarLink link={"casestudies"}>Case Studies</NavbarLink>
-                                <NavbarLink link={"testimonials"}>Testimonials</NavbarLink>
-                                <NavbarLink link={"faq"}>FAQ</NavbarLink>
+                            <ul className="menu p-4 w-full min-h-full bg-base-200 text-base-content flex flex-col gap-[10px]">
+                                <div className="w-full flex justify-start">
+                                    <p onClick={() => document.getElementById("my-drawer-4").click()} className="drawer-button btn btn-ghost"><i className="fa-solid fa-xmark text-xl"></i></p>
+                                </div>
+                                <div className="flex flex-col items-center gap-[20px] mt-[25px]">
+                                    <NavbarLink link={"whyus"}>Why us</NavbarLink>
+                                    <NavbarLink link={"casestudies"}>Case Studies</NavbarLink>
+                                    <NavbarLink link={"testimonials"}>Testimonials</NavbarLink>
+                                    <NavbarLink link={"faq"}>FAQ</NavbarLink>
+                                </div>
                             </ul>
                         </div>
                     </div>
-                    <div className="w-full lg:w-fit flex justify-end">
+                    {/* <div className="w-full lg:w-fit flex justify-end">
                         <button className="btn bg-[#5D45FD] hover:bg-[#4d42c5] btn-primary">Let's talk <i class="fa-solid fa-chevron-right"></i></button>
-                    </div>
+                    </div> */}
                 </div>
             </Wrapper>
         </div>
