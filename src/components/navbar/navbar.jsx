@@ -16,7 +16,7 @@ const Navbar = () => {
             <Wrapper>
                 <div className="flex justify-between items-center pt-[15px] flex-col lg:flex-row gap-[10px] lg:gap-0">
                     <div>
-                        <img src="https://i.ibb.co/0GH7ms0/pixelcut-export-1.png" alt="logo" className="h-[100px] lg:h-[100px] lg:w-[300px] object-cover" />
+                        <img src="https://i.ibb.co/0GH7ms0/pixelcut-export-1.png" alt="logo" className="w-[280px] h-[70px] lg:h-[100px] lg:w-[300px] object-cover" />
                     </div>
                     <div className="hidden items-center gap-[45px] lg:flex">
                         <NavbarLink link={"whyus"}>Why us</NavbarLink>
