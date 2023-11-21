@@ -19,10 +19,10 @@ const Navbar = () => {
                         <img src="https://i.ibb.co/0GH7ms0/pixelcut-export-1.png" alt="logo" className="w-[280px] h-[70px] lg:h-[100px] lg:w-[300px] object-cover" />
                     </div>
                     <div className="hidden items-center gap-[45px] lg:flex">
-                        <NavbarLink link={"whyus"}>Why us</NavbarLink>
-                        <NavbarLink link={"casestudies"}>Case Studies</NavbarLink>
-                        <NavbarLink link={"testimonials"}>Testimonials</NavbarLink>
-                        <NavbarLink link={"faq"}>FAQ</NavbarLink>
+                        <NavbarLink link={"#negabiz"}>Nega biz?</NavbarLink>
+                        <NavbarLink link={"#servis"}>Servis</NavbarLink>
+                        <NavbarLink link={"#baholar"}>Baholar</NavbarLink>
+                        <NavbarLink link={"#bizhaqimizda"}>Biz haqimizda</NavbarLink>
                     </div>
                     <div className="drawer lg:hidden z-50 absolute w-full top-[10px] left-[0px] drawer-end">
                         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
@@ -36,10 +36,10 @@ const Navbar = () => {
                                     <p onClick={() => document.getElementById("my-drawer-4").click()} className="drawer-button btn btn-ghost"><i className="fa-solid fa-xmark text-xl"></i></p>
                                 </div>
                                 <div className="flex flex-col items-center gap-[20px] mt-[25px]">
-                                    <NavbarLink link={"whyus"}>Why us</NavbarLink>
-                                    <NavbarLink link={"casestudies"}>Case Studies</NavbarLink>
-                                    <NavbarLink link={"testimonials"}>Testimonials</NavbarLink>
-                                    <NavbarLink link={"faq"}>FAQ</NavbarLink>
+                                    <NavbarLink link={"#negabiz"}>Nega biz?</NavbarLink>
+                                    <NavbarLink link={"#servis"}>Servis</NavbarLink>
+                                    <NavbarLink link={"#baholar"}>Baholar</NavbarLink>
+                                    <NavbarLink link={"#bizhaqimizda"}>Biz haqimizda</NavbarLink>
                                 </div>
                             </ul>
                         </div>

@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="flex items-start justify-between flex-col lg:flex-row gap-[15px] lg:gap-0">
                     <img src={logo} alt="logo" className="h-[115px] w-[180px] object-cover" />
                     <div>
-                        <p className="text-lg text-white">Let's connect</p>
+                        <p className="text-lg text-white">Aloqaga chiqing</p>
                         <div className="mt-[8px] flex flex-col gap-1">
                             <p>4517 Washington Ave. <br /> Manchester, Kentucky 39495</p>
                             <p>michael.mitc@example.com</p>
@@ -16,15 +16,15 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <p className="text-lg text-white">Links</p>
+                        <p className="text-lg text-white">Linklar</p>
                         <div className="mt-[8px] flex flex-col gap-1">
-                            <a href="/" className="hover:underline">Testimonials</a>
-                            <a href="/" className="hover:underline">Pricing</a>
-                            <a href="/" className="hover:underline">Why Us</a>
+                            <a href="/" className="hover:underline">Baholar</a>
+                            <a href="/" className="hover:underline">Narxlar</a>
+                            <a href="/" className="hover:underline">Nega biz?</a>
                         </div>
                     </div>
                     <div>
-                        <p className="text-lg text-white">Follow Us</p>
+                        <p className="text-lg text-white">Bizga qo'shiling</p>
                         <div className="mt-[8px] flex items-center gap-2">
                             <a href="/">
                                 <img className="w-[28px]" src="https://www.edigitalagency.com.au/wp-content/uploads/facebook-icon-white-png.png" alt="f" />

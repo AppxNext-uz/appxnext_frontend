@@ -21,16 +21,16 @@ const App = () => {
                 <Wrapper>
                     <div>
                         <div className="mt-[100px] p-[10px] lg:p-0">
-                            <h1 className="font-[700] text-6xl lg:text-7xl text-white">We develop <i className="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[50px] from-[#A599FC] to-[#5E46FF]"></i></h1>
-                            <h1 className="font-[700] text-6xl lg:text-7xl text-white mt-[20px]"><span className="text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-[#A599FC] to-[#5E46FF]">amazing</span> websites</h1>
-                            <h1 className="font-[700] text-6xl lg:text-7xl text-white mt-[20px]">for your business<span className="text-transparent bg-clip-text bg-gradient-to-r from-[#A599FC] to-[#5E46FF]">.</span></h1>
+                            <h1 className="font-[700] text-6xl lg:text-7xl text-white">Biz siz uchun <i className="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[50px] from-[#A599FC] to-[#5E46FF]"></i></h1>
+                            <h1 className="font-[700] text-6xl lg:text-7xl text-white mt-[20px]"><span className="text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-[#A599FC] to-[#5E46FF]">zamonaviy </span>web saytlar</h1>
+                            <h1 className="font-[700] text-6xl lg:text-7xl text-white mt-[20px]">ishlab chiqamiz<span className="text-transparent bg-clip-text bg-gradient-to-r from-[#A599FC] to-[#5E46FF]">.</span></h1>
                         </div>
                         <div className="p-[15px] lg:p-0">
-                            <p className="text-[#BBBBC5] text-[18px] lg:text-[22px] max-w-[760px] mt-[40px]">Discover our seamless workflow as we transform Figma designs into stunning Webflow websites. Explore the synergy between design and development for a pixel-perfect online experience.</p>
+                            <p className="text-[#BBBBC5] text-[18px] lg:text-[22px] max-w-[760px] mt-[40px]">Zamonaviy, ajoyib, chiroyli web saytlarni va mobil qurilmalarning kuchini o'zingizning loyihangizda kashf eting!</p>
                         </div>
                         <div className="mt-[50px] flex justify-start flex-col lg:flex-row items-center gap-[45px]">
                             <div>
-                                <button className="btn btn-ghost border-[#5D45FD] hover:bg-[#4d42c5] btn-primary">View work <i className="fa-solid fa-chevron-right"></i></button>
+                                <button className="btn btn-ghost border-[#5D45FD] hover:bg-[#4d42c5] btn-primary">Loyihlararimizni ko'ring <i className="fa-solid fa-chevron-right"></i></button>
                             </div>
                             <div className="flex items-center">
                                 <div className="avatar-group -space-x-4">
@@ -52,12 +52,12 @@ const App = () => {
                                 </div>
                                 <div className="ml-4">
                                     <p className="-mb-1 text-gray text-xl">29+</p>
-                                    <p className="text-gray text-lg">Satisfied clients</p>
+                                    <p className="text-gray text-lg uppercase">Buyurtmachilar</p>
                                 </div>
                             </div>
                         </div>
                         <div className="mt-[100px]">
-                            <p className="text-center font-[700] text-xl text-white">Trusted by 30+ businesses</p>
+                            <p className="text-center font-[700] text-xl text-white uppercase">30+ Biznes loyihalar ishongan</p>
                             <div className="flex justify-between gap-[5px] lg:gap-[35px] items-center flex-col lg:flex-row">
                                 <a href="/" className="mt-[25px] shadow-2xl">
                                     <div className="hover:scale-105 transition-all cursor-pointer border-2 rounded-xl border-[#282631] py-[8px] px-[20px] w-fit">
@@ -89,9 +89,9 @@ const App = () => {
                     </div>
                     <div className="mt-[100px] lg:p-0 p-[15px]">
                         <div>
-                            <p className="tracking-widest text-[#998DE2]">SERVICE</p>
-                            <h2 className="text-4xl text-white font-[700] mt-[10px]">Exceeding Expectations <i class="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[28px] from-[#A599FC] to-[#5E46FF]"></i></h2>
-                            <p className="text-[18px] mt-[8px] max-w-2xl">We're not just another agency; we're your path to exceptional web projects.</p>
+                            <p className="tracking-widest text-[#998DE2]">SERVIS</p>
+                            <h2 className="text-4xl text-white font-[700] mt-[10px]">BIZDAN SIZGA <i class="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[28px] from-[#A599FC] to-[#5E46FF]"></i></h2>
+                            <p className="text-[18px] mt-[8px] max-w-2xl">Biz sizga nimalarni taklif qilishimiz mumkin.</p>
                         </div>
                         <div className="mt-[50px] flex justify-between items-center flex-wrap gap-[10px] lg:gap-[0px]">
                             <div className="border-2 shadow-2xl border-[#4A494E] hover:-translate-y-1 transition-all rounded-2xl py-[35px] px-[20px] w-fit">
@@ -149,8 +149,8 @@ const App = () => {
                         <div className="mt-[100px]">
                             <div>
                                 <p className="tracking-widest text-[#998DE2]">PORTFOLIO</p>
-                                <h2 className="text-4xl text-white font-[700] mt-[10px]">Our Latest Work <i class="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[28px] from-[#A599FC] to-[#5E46FF]"></i></h2>
-                                <p className="text-[18px] mt-[8px] max-w-2xl">Discover our freshest creations that showcase the power of design innovation and digital excellence. Explore our latest work and witness the impact we bring to every project</p>
+                                <h2 className="text-4xl text-white font-[700] mt-[10px]">BIZNING SO'NGGI ISHLARIMIZ <i class="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[28px] from-[#A599FC] to-[#5E46FF]"></i></h2>
+                                <p className="text-[18px] mt-[8px] max-w-2xl">Jamoamiz bajargan so'nggi ishlarni ko'rishingiz mumkin.</p>
                             </div>
                             <div className="mt-[50px] flex justify-between items-center flex-wrap">
                                 <a className="shadow-2xl" href="/">
@@ -244,9 +244,9 @@ const App = () => {
 
                         <div className="mt-[100px]">
                             <div>
-                                <p className="tracking-widest text-[#998DE2]">TESTIMONIALS</p>
-                                <h2 className="text-4xl text-white font-[700] mt-[10px]">Our clients says <i class="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[28px] from-[#A599FC] to-[#5E46FF]"></i></h2>
-                                <p className="text-[18px] mt-[8px] max-w-2xl">Don't take our word for it. Hear it from our happy clients</p>
+                                <p className="tracking-widest text-[#998DE2]">BAHO</p>
+                                <h2 className="text-4xl text-white font-[700] mt-[10px]">BUYURTMACHILARIMIZ BAHOLARI <i class="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[28px] from-[#A599FC] to-[#5E46FF]"></i></h2>
+                                <p className="text-[18px] mt-[8px] max-w-2xl">Jamoamizga berilgan shaffof baholar.</p>
                             </div>
                             <div className="mt-[60px]">
 
