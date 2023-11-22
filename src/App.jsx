@@ -3,6 +3,7 @@ import Footer from "./components/footer/footer"
 import { Route, Routes } from "react-router-dom"
 import Main from "./pages/main"
 import Portfolio from "./pages/portfolio"
+import About from "./pages/about"
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Main/>} />
                 <Route path="/portfolio" element={<Portfolio/>} />
+                <Route path="/about" element={<About/>} />
             </Routes>
 
             <Footer/>
