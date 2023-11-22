@@ -129,12 +129,12 @@ const Portfolio = () => {
                                 </div>
                             </div>}
                         </div>
-                        <div className="mt-[150px]">
+                        <div id="fikr" className="mt-[150px]">
                             <div className="mt-[20px]">
                                 <div>
-                                    <p className="tracking-widest text-[#998DE2]">BAHO</p>
-                                    <h2 className="text-4xl text-white font-[700] mt-[10px]">BUYURTMACHILARIMIZ BAHOLARI <i class="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[28px] from-[#A599FC] to-[#5E46FF]"></i></h2>
-                                    <p className="text-[18px] mt-[8px] max-w-2xl">Jamoamizga berilgan shaffof baholar.</p>
+                                    <p className="pt-2 tracking-widest text-[#998DE2]">FIKRLAR</p>
+                                    <h2 className="text-4xl text-white font-[700] mt-[10px]">BUYURTMACHILARIMIZ FIKRLARI <i class="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[28px] from-[#A599FC] to-[#5E46FF]"></i></h2>
+                                    <p className="text-[18px] mt-[8px] max-w-2xl">Jamoamizga berilgan shaffof fikrlar.</p>
                                 </div>
                                 <div className="mt-[60px]">
 

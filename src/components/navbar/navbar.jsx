@@ -22,7 +22,7 @@ const Navbar = () => {
                         <NavbarLink link={"#negabiz"}>Nega biz?</NavbarLink>
                         <NavbarLink link={"/portfolio"}>Portfolio</NavbarLink>
                         <NavbarLink link={"#xizmatlar"}>Xizmatlar</NavbarLink>
-                        <NavbarLink link={"#baholar"}>Baholar</NavbarLink>
+                        <a className="hover:text-[#ffffff] text-[18px] font-[700] text-[#AFAEB8]" href={"portfolio#fikr"}>Fikrlar</a>
                         <NavbarLink link={"#bizhaqimizda"}>Biz haqimizda</NavbarLink>
                     </div>
                     <div className="drawer lg:hidden z-50 absolute w-full top-[10px] left-[0px] drawer-end">
@@ -40,7 +40,7 @@ const Navbar = () => {
                                     <NavbarLink link={"#negabiz"}>Nega biz?</NavbarLink>
                                     <NavbarLink link={"/portfolio"}>Portfolio</NavbarLink>
                                     <NavbarLink link={"#xizmatlar"}>Xizmatlar</NavbarLink>
-                                    <NavbarLink link={"#baholar"}>Baholar</NavbarLink>
+                                    <a className="hover:text-[#ffffff] text-[18px] font-[700] text-[#AFAEB8]" href={"portfolio#fikr"}>Fikrlar</a>
                                     <NavbarLink link={"#bizhaqimizda"}>Biz haqimizda</NavbarLink>
                                 </div>
                             </ul>
