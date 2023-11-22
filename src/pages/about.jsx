@@ -50,7 +50,7 @@ const About = () => {
                                         <h1 className="mt-2 text-[28px] text-white font-bold">Dart</h1>
                                     </div>
                                     <div className="flex flex-col items-center">
-                                        <img className="h-[75px]" src="https://w7.pngwing.com/pngs/358/849/png-transparent-postgresql-database-logo-database-symbol-blue-text-logo-thumbnail.png" alt="PostgreSQL" />
+                                        <img className="h-[75px]" src="https://w7.pngwing.com/pngs/441/460/png-transparent-postgresql-plain-wordmark-logo-icon.png" alt="PostgreSQL" />
                                         <h1 className="mt-2 text-[28px] text-white font-bold">PostgreSQL</h1>
                                     </div>
                                     <div className="flex flex-col items-center">
