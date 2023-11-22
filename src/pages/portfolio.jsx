@@ -29,7 +29,7 @@ const Portfolio = () => {
                             {isActive && <div className="flex gap-[20px]">
                                 <a href="https://play.google.com/store/apps/details?id=uz.dasturchimobile.arashov_trading">
                                     <div className="relative">
-                                        <img className="w-[520px] h-[520px] rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://i.ibb.co/NtPtLtN/Untitled-design.png" alt="arashov" />
+                                        <img className="w-[520px] h-[520px] opacity-60 hover:opacity-100 rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://i.ibb.co/NtPtLtN/Untitled-design.png" alt="arashov" />
                                         <div className="absolute left-[35px] top-[26px]">
                                             <h1 className="text-white text-[32px] font-[900]">Arashov Trading</h1>
                                             <h1 className="text-[18px] font-[400] mt-[2px]">Learn app</h1>
@@ -39,7 +39,7 @@ const Portfolio = () => {
                                 <div className="flex flex-col items-start gap-[20px]">
                                     <a href="https://play.google.com/store/apps/details?id=uz.dasturchimobile.arashov_trading">
                                         <div className="relative">
-                                            <img className="w-[260px] h-[260px] rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://i.ibb.co/NtPtLtN/Untitled-design.png" alt="arashov" />
+                                            <img className="w-[260px] h-[260px] opacity-60 hover:opacity-100 rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://i.ibb.co/NtPtLtN/Untitled-design.png" alt="arashov" />
                                             <div className="absolute left-[15px] top-[20px]">
                                                 <h1 className="text-white text-[24px] font-[900]">Arashov Trading</h1>
                                                 <h1 className="font-[400] mt-[2px]">Learn app</h1>
@@ -48,7 +48,7 @@ const Portfolio = () => {
                                     </a>
                                     <a href="https://play.google.com/store/apps/details?id=uz.dasturchimobile.arashov_trading">
                                         <div className="relative">
-                                            <img className="w-[260px] h-[260px] rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://i.ibb.co/NtPtLtN/Untitled-design.png" alt="arashov" />
+                                            <img className="w-[260px] h-[260px] opacity-60 hover:opacity-100 rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://i.ibb.co/NtPtLtN/Untitled-design.png" alt="arashov" />
                                             <div className="absolute left-[15px] top-[20px]">
                                                 <h1 className="text-white text-[24px] font-[900]">Arashov Trading</h1>
                                                 <h1 className="font-[400] mt-[2px]">Learn app</h1>
@@ -59,7 +59,7 @@ const Portfolio = () => {
                                 <div className="flex flex-col items-start gap-[20px]">
                                     <a href="https://play.google.com/store/apps/details?id=uz.dasturchimobile.arashov_trading">
                                         <div className="relative">
-                                            <img className="w-[260px] h-[260px] rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://i.ibb.co/NtPtLtN/Untitled-design.png" alt="arashov" />
+                                            <img className="w-[260px] h-[260px] opacity-60 hover:opacity-100 rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://i.ibb.co/NtPtLtN/Untitled-design.png" alt="arashov" />
                                             <div className="absolute left-[15px] top-[20px]">
                                                 <h1 className="text-white text-[24px] font-[900]">Arashov Trading</h1>
                                                 <h1 className="font-[400] mt-[2px]">Learn app</h1>
@@ -68,7 +68,7 @@ const Portfolio = () => {
                                     </a>
                                     <a href="https://play.google.com/store/apps/details?id=uz.dasturchimobile.arashov_trading">
                                         <div className="relative">
-                                            <img className="w-[260px] h-[260px] rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://i.ibb.co/NtPtLtN/Untitled-design.png" alt="arashov" />
+                                            <img className="w-[260px] h-[260px] opacity-60 hover:opacity-100 rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://i.ibb.co/NtPtLtN/Untitled-design.png" alt="arashov" />
                                             <div className="absolute left-[15px] top-[20px]">
                                                 <h1 className="text-white text-[24px] font-[900]">Arashov Trading</h1>
                                                 <h1 className="font-[400] mt-[2px]">Learn app</h1>
@@ -80,7 +80,7 @@ const Portfolio = () => {
                             {!isActive && <div className="flex gap-[20px]">
                                 <a href="https://movigo.netlify.app">
                                     <div className="relative">
-                                        <img className="w-[520px] h-[520px] rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://kncoder.vercel.app/assets/movigo-52fc2fd2.png" alt="arashov" />
+                                        <img className="w-[520px] h-[520px] opacity-60 hover:opacity-100 rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://kncoder.vercel.app/assets/movigo-52fc2fd2.png" alt="arashov" />
                                         <div className="absolute left-[35px] top-[26px]">
                                             <h1 className="text-white text-[32px] font-[900]">Movigo</h1>
                                             <h1 className="text-[18px] font-[400] mt-[2px]">Kino sayt</h1>
@@ -90,7 +90,7 @@ const Portfolio = () => {
                                 <div className="flex flex-col items-start gap-[20px]">
                                     <a href="https://movigo.netlify.app">
                                         <div className="relative">
-                                            <img className="w-[260px] h-[260px] rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://kncoder.vercel.app/assets/movigo-52fc2fd2.png" alt="arashov" />
+                                            <img className="w-[260px] h-[260px] opacity-60 hover:opacity-100 rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://kncoder.vercel.app/assets/movigo-52fc2fd2.png" alt="arashov" />
                                             <div className="absolute left-[15px] top-[20px]">
                                                 <h1 className="text-white text-[24px] font-[900]">Movigo</h1>
                                                 <h1 className="font-[400] mt-[2px]">Kino sayt</h1>
@@ -99,7 +99,7 @@ const Portfolio = () => {
                                     </a>
                                     <a href="https://movigo.netlify.app">
                                         <div className="relative">
-                                            <img className="w-[260px] h-[260px] rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://kncoder.vercel.app/assets/movigo-52fc2fd2.png" alt="arashov" />
+                                            <img className="w-[260px] h-[260px] opacity-60 hover:opacity-100 rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://kncoder.vercel.app/assets/movigo-52fc2fd2.png" alt="arashov" />
                                             <div className="absolute left-[15px] top-[20px]">
                                                 <h1 className="text-white text-[24px] font-[900]">Movigo</h1>
                                                 <h1 className="font-[400] mt-[2px]">Kino sayt</h1>
@@ -110,7 +110,7 @@ const Portfolio = () => {
                                 <div className="flex flex-col items-start gap-[20px]">
                                     <a href="https://movigo.netlify.app">
                                         <div className="relative">
-                                            <img className="w-[260px] h-[260px] rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://kncoder.vercel.app/assets/movigo-52fc2fd2.png" alt="arashov" />
+                                            <img className="w-[260px] h-[260px] opacity-60 hover:opacity-100 rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://kncoder.vercel.app/assets/movigo-52fc2fd2.png" alt="arashov" />
                                             <div className="absolute left-[15px] top-[20px]">
                                                 <h1 className="text-white text-[24px] font-[900]">Movigo</h1>
                                                 <h1 className="font-[400] mt-[2px]">Kino sayt</h1>
@@ -119,7 +119,7 @@ const Portfolio = () => {
                                     </a>
                                     <a href="https://movigo.netlify.app">
                                         <div className="relative">
-                                            <img className="w-[260px] h-[260px] rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://kncoder.vercel.app/assets/movigo-52fc2fd2.png" alt="arashov" />
+                                            <img className="w-[260px] h-[260px] opacity-60 hover:opacity-100 rounded-2xl hover:scale-[1.02] transition-all object-cover" src="https://kncoder.vercel.app/assets/movigo-52fc2fd2.png" alt="arashov" />
                                             <div className="absolute left-[15px] top-[20px]">
                                                 <h1 className="text-white text-[24px] font-[900]">Movigo</h1>
                                                 <h1 className="font-[400] mt-[2px]">Kino sayt</h1>
