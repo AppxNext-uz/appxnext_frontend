@@ -1,10 +1,10 @@
+import { Link } from "react-router-dom"
 import Wrapper from "../../layout/wrapper"
-import logo from "../../assets/logo.png"
 
 const NavbarLink = ({link, children}) => {
     return (
         <div>
-            <a className="hover:text-[#ffffff] text-[18px] font-[700] text-[#AFAEB8]" href={`#${link}`}>{children}</a>
+            <Link className="hover:text-[#ffffff] text-[18px] font-[700] text-[#AFAEB8]" to={`${link}`}>{children}</Link>
         </div>
     )
 }
@@ -15,12 +15,13 @@ const Navbar = () => {
         <div>
             <Wrapper>
                 <div className="flex justify-between items-center pt-[15px] flex-col lg:flex-row gap-[10px] lg:gap-0">
-                    <div>
+                    <Link to={"/"}>
                         <img src="https://i.ibb.co/0GH7ms0/pixelcut-export-1.png" alt="logo" className="w-[280px] h-[70px] lg:h-[100px] lg:w-[300px] object-cover" />
-                    </div>
+                    </Link>
                     <div className="hidden items-center gap-[45px] lg:flex">
                         <NavbarLink link={"#negabiz"}>Nega biz?</NavbarLink>
-                        <NavbarLink link={"#servis"}>Servis</NavbarLink>
+                        <NavbarLink link={"/portfolio"}>Portfolio</NavbarLink>
+                        <NavbarLink link={"#xizmatlar"}>Xizmatlar</NavbarLink>
                         <NavbarLink link={"#baholar"}>Baholar</NavbarLink>
                         <NavbarLink link={"#bizhaqimizda"}>Biz haqimizda</NavbarLink>
                     </div>
@@ -37,7 +38,8 @@ const Navbar = () => {
                                 </div>
                                 <div className="flex flex-col items-center gap-[20px] mt-[25px]">
                                     <NavbarLink link={"#negabiz"}>Nega biz?</NavbarLink>
-                                    <NavbarLink link={"#servis"}>Servis</NavbarLink>
+                                    <NavbarLink link={"/portfolio"}>Portfolio</NavbarLink>
+                                    <NavbarLink link={"#xizmatlar"}>Xizmatlar</NavbarLink>
                                     <NavbarLink link={"#baholar"}>Baholar</NavbarLink>
                                     <NavbarLink link={"#bizhaqimizda"}>Biz haqimizda</NavbarLink>
                                 </div>

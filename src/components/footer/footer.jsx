@@ -3,7 +3,7 @@ import Wrapper from "../../layout/wrapper"
 
 const Footer = () => {
     return (
-        <div className="mt-[50px] lg:mt-[150px] py-[35px] border-[#191919] border-t-[3px]">
+        <div className="mt-[50px] lg:mt-[150px] py-[35px]">
             <Wrapper>
                 <div className="flex items-start justify-between flex-col lg:flex-row gap-[15px] lg:gap-0">
                     <img src={logo} alt="logo" className="h-[115px] w-[180px] object-cover" />
