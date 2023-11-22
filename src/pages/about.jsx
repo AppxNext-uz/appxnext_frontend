@@ -38,7 +38,7 @@ const About = () => {
                                         <h1 className="mt-2 text-[28px] text-white font-bold">NodeJS</h1>
                                     </div>
                                      <div className="flex flex-col items-center">
-                                        <img className="h-[75px]" src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="Nest.js" />
+                                        <img className="h-[75px]" src="https://seeklogo.com/images/N/nestjs-logo-09342F76C0-seeklogo.com.png" alt="Nest.js" />
                                         <h1 className="mt-2 text-[28px] text-white font-bold">Nest.js</h1>
                                     </div>
                                     <div className="flex flex-col items-center">
