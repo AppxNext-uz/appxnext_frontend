@@ -22,6 +22,14 @@ const About = () => {
                             <div className="mt-[35px]">
                                 <div className="flex items-center gap-[50px]">
                                     <div className="flex flex-col items-center">
+                                        <img className="h-[75px]" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="Javascript" />
+                                        <h1 className="mt-2 text-[28px] text-white font-bold">JavaScript</h1>
+                                    </div>
+                                    <div className="flex flex-col items-center">
+                                        <img className="h-[75px]" src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="Typescript" />
+                                        <h1 className="mt-2 text-[28px] text-white font-bold">Typescript</h1>
+                                    </div>
+                                    <div className="flex flex-col items-center">
                                         <img className="h-[75px]" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" alt="react" />
                                         <h1 className="mt-2 text-[28px] text-white font-bold">React</h1>
                                     </div>
@@ -29,18 +37,26 @@ const About = () => {
                                         <img className="h-[75px]" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png" alt="nodejs" />
                                         <h1 className="mt-2 text-[28px] text-white font-bold">NodeJS</h1>
                                     </div>
+                                     <div className="flex flex-col items-center">
+                                        <img className="h-[75px]" src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="Nest.js" />
+                                        <h1 className="mt-2 text-[28px] text-white font-bold">Nest.js</h1>
+                                    </div>
                                     <div className="flex flex-col items-center">
                                         <img className="h-[75px]" src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" alt="flutter" />
                                         <h1 className="mt-2 text-[28px] text-white font-bold">Flutter</h1>
                                     </div>
                                     <div className="flex flex-col items-center">
-                                        <img className="h-[75px]" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="js" />
-                                        <h1 className="mt-2 text-[28px] text-white font-bold">JavaScript</h1>
+                                        <img className="h-[75px]" src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="Dart" />
+                                        <h1 className="mt-2 text-[28px] text-white font-bold">Dart</h1>
+                                    </div>
+                                    <div className="flex flex-col items-center">
+                                        <img className="h-[75px]" src="https://w7.pngwing.com/pngs/358/849/png-transparent-postgresql-database-logo-database-symbol-blue-text-logo-thumbnail.png" alt="PostgreSQL" />
+                                        <h1 className="mt-2 text-[28px] text-white font-bold">PostgreSQL</h1>
                                     </div>
                                     <div className="flex flex-col items-center">
                                         <img className="h-[75px]" src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="mongoDB" />
                                         <h1 className="mt-2 text-[28px] text-white font-bold">MongoDB</h1>
-                                    </div>
+                                    </div> 
                                 </div>
                             </div>
                         </div>
