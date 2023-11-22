@@ -26,9 +26,9 @@ const About = () => {
                                     <p className="text-[20px]">Front-end</p>
                                 </div>
                                 <div className="flex items-center flex-col">
-                                    <img className="w-[320px] rounded-full" src="https://cdn-edge.kwork.ru/files/avatar/medium/50/15757603-3.jpg" alt="img" />
-                                    <h1 className="mt-2 text-[26px] text-white font-bold">Khatamov Nuriddin</h1>
-                                    <p className="text-[20px]">Front-end</p>
+                                    <img className="w-[320px] rounded-full" src="https://i.ibb.co/XxLKW4D/Background-Silver.png" alt="img" />
+                                    <h1 className="mt-2 text-[26px] text-white font-bold">Kamalov Farrukh</h1>
+                                    <p className="text-[20px]">CEO, Backend developer</p>
                                 </div>
                                 <div className="flex items-center flex-col">
                                     <img className="w-[320px] rounded-full" src="https://cdn-edge.kwork.ru/files/avatar/medium/50/15757603-3.jpg" alt="img" />
