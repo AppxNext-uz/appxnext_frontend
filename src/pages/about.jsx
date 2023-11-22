@@ -8,16 +8,13 @@ const About = () => {
             <div className="w-full min-h-[550px]">
                 <Wrapper>
                     <div className="w-full">
-                        <div className="mt-[50px]">
-                            <h1 className="text-white font-[800] text-[32px]">AppxNext HAQIDA</h1>
-                        </div>
                         <div className="mt-[30px] flex justify-center">
-                            <img src={logo} alt="logo" className="w-[360px]" />
+                            <img src={logo} alt="logo" className="w-[400px]" />
                         </div>
                         <div className="mt-[35px]">
                             <h1 className="my-3 text-[32px] text-white font-bold">Biz haqimizda</h1>
                             <p className="text-lg max-w-4xl">
-                                Biz mijozlarimizga innovatsiyalar va zamonaviy texnologiyalardan voz kechmagan holda yuqori sifatli, ishonchli va foydalanuvchilarga qulay dasturiy yechimlarni taklif qilamiz. “SOFT IT” kompaniyasi foydalanuvchilarga fotosuratlar, videolar va musiqalarni oqilona tahrirlash, tartibga solish, zaxiralash yoki almashish imkonini beruvchi dasturiy ilovalar va platformalarni ishlab chiqadi. Bizning kompaniya Raqamlashtirish sohasida 20 dan ortiq muvafaqqiyatli loyihalarni amalga oshirish bilan birga, ularni texnik qo‘llab-quvvatlash va sifatli dasturiy ta’minotini amalga oshirish bilan shug’ullanadi. Kompaniyamizda 20 ga yaqin yuqori malakali loyiha menedjerlari, full stack dasturchilar, testlovchilar, UI/UX hamda grafik dizaynerlar faoliyat yuritadi.  
+                                Biz mijozlarimizga innovatsiyalar va zamonaviy texnologiyalardan voz kechmagan holda yuqori sifatli, ishonchli va foydalanuvchilarga qulay dasturiy yechimlarni taklif qilamiz. “AppxNext IT Group” kompaniyasi foydalanuvchilarga dasturiy ilovalar va platformalarni ishlab chiqadi. Bizning kompaniya IT sohasida 5 dan ortiq muvafaqqiyatli loyihalarni amalga oshirish bilan birga, ularni texnik qo‘llab-quvvatlash va sifatli dasturiy ta’minotini amalga oshirish bilan shug’ullanadi. Kompaniyamizda 10 ga yaqin yuqori malakali Frontend va Backend dasturchilar, Mobil dasturchilar, UI/UX hamda grafik dizaynerlar faoliyat yuritadi.  
                             </p>
                         </div>
                         <div className="mt-[75px]">
