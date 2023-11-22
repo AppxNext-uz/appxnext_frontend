@@ -46,7 +46,7 @@ const About = () => {
                                         <h1 className="mt-2 text-[28px] text-white font-bold">Flutter</h1>
                                     </div>
                                     <div className="flex flex-col items-center">
-                                        <img className="h-[75px]" src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="Dart" />
+                                        <img className="h-[75px]" src="https://img.icons8.com/?size=256&id=7AFcZ2zirX6Y&format=png" alt="Dart" />
                                         <h1 className="mt-2 text-[28px] text-white font-bold">Dart</h1>
                                     </div>
                                     <div className="flex flex-col items-center">
