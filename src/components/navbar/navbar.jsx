@@ -21,7 +21,7 @@ const Navbar = () => {
                     <div className="hidden items-center gap-[45px] lg:flex">
                         <NavbarLink link={"/"}>Bosh sahifa</NavbarLink>
                         <NavbarLink link={"/portfolio"}>Portfolio</NavbarLink>
-                        <NavbarLink link={"#xizmatlar"}>Xizmatlar</NavbarLink>
+                        <NavbarLink link={"/xizmatlar"}>Xizmatlar</NavbarLink>
                         <NavbarLink link={"/about"}>Biz haqimizda</NavbarLink>
                     </div>
                     <div className="drawer lg:hidden z-50 absolute w-full top-[10px] left-[0px] drawer-end">
@@ -38,7 +38,7 @@ const Navbar = () => {
                                 <div className="flex flex-col items-center gap-[20px] mt-[25px]">
                                     <NavbarLink link={"/"}>Bosh sahifa</NavbarLink>
                                     <NavbarLink link={"/portfolio"}>Portfolio</NavbarLink>
-                                    <NavbarLink link={"#xizmatlar"}>Xizmatlar</NavbarLink>
+                                    <NavbarLink link={"/xizmatlar"}>Xizmatlar</NavbarLink>
                                     <NavbarLink link={"/about"}>Biz haqimizda</NavbarLink>
                                 </div>
                             </ul>
