@@ -1,5 +1,7 @@
 import Wrapper from "../layout/wrapper"
 import logo from "../assets/logo.png"
+import green from "../assets/green.png"
+import gray from "../assets/gray.png"
 
 const About = () => {
 
@@ -21,19 +23,19 @@ const About = () => {
                             <h1 className="my-3 text-[32px] text-white font-bold">Bizning jamoa</h1>
                             <div className="mt-[50px] flex justify-between flex-wrap">
                                 <div className="flex items-center flex-col">
-                                    <img className="w-[280px] rounded-full" src="https://cdn-edge.kwork.ru/files/avatar/medium/50/15757603-3.jpg" alt="img" />
+                                    <img className="w-[320px] rounded-full" src={green} alt="img" />
                                     <h1 className="mt-2 text-[26px] text-white font-bold">Khatamov Nuriddin</h1>
-                                    <p className="text-[20px]">Front-end</p>
+                                    <p className="text-[20px]">Frontend Developer</p>
                                 </div>
                                 <div className="flex items-center flex-col">
-                                    <img className="w-[280px] rounded-full" src="https://cdn-edge.kwork.ru/files/avatar/medium/50/15757603-3.jpg" alt="img" />
-                                    <h1 className="mt-2 text-[26px] text-white font-bold">Khatamov Nuriddin</h1>
-                                    <p className="text-[20px]">Front-end</p>
+                                    <img className="w-[320px] rounded-full" src="https://i.ibb.co/XxLKW4D/Background-Silver.png" alt="img" />
+                                    <h1 className="mt-2 text-[26px] text-white font-bold">Kamalov Farrukh</h1>
+                                <p className="text-[20px]">CEO, Backend Developer</p>
                                 </div>
                                 <div className="flex items-center flex-col">
-                                    <img className="w-[280px] rounded-full" src="https://cdn-edge.kwork.ru/files/avatar/medium/50/15757603-3.jpg" alt="img" />
-                                    <h1 className="mt-2 text-[26px] text-white font-bold">Khatamov Nuriddin</h1>
-                                    <p className="text-[20px]">Front-end</p>
+                                    <img className="w-[320px] rounded-full" src={gray} alt="img" />
+                                    <h1 className="mt-2 text-[26px] text-white font-bold">Asqaraliyev Azizbek</h1>
+                                    <p className="text-[20px]">Mobile Developer</p>
                                 </div>
                             </div>
                         </div>

@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css';
 
 import { Pagination } from 'swiper/modules';
+import { Link } from "react-router-dom";
 
 const Main = () => {
     return (
@@ -23,7 +24,7 @@ const Main = () => {
                         </div>
                         <div className="mt-[50px] flex justify-start flex-col lg:flex-row items-center gap-[45px]">
                             <div>
-                                <button className="btn btn-ghost border-[#5D45FD] hover:bg-[#4d42c5] btn-primary">Loyihlararimizni ko'ring <i className="fa-solid fa-chevron-right"></i></button>
+                                <Link to={"/portfolio"} className="btn btn-ghost border-[#5D45FD] hover:bg-[#4d42c5] btn-primary">Loyihlararimizni ko'ring <i className="fa-solid fa-chevron-right"></i></Link>
                             </div>
                             <div className="flex items-center">
                                 <div className="avatar-group -space-x-4">
@@ -178,6 +179,9 @@ const Main = () => {
                                         <img src={"https://kncoder.vercel.app/assets/avolon-e69f0f8b.png"} alt="logo" className="h-[400px] w-[400px] rounded-2xl object-cover" />
                                     </div>
                                 </a>
+                            </div>
+                            <div className="mt-[35px]">
+                                <Link to="/portfolio" className="btn btn-ghost border-[#5D45FD] hover:bg-[#4d42c5] btn-primary">Barchasi <i className="fa-solid fa-chevron-right"></i></Link>
                             </div>
                         </div>
 

@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="mt-[50px] lg:mt-[150px] py-[50px]">
             <Wrapper>
                 <div className="flex items-start justify-between flex-col lg:flex-row gap-[15px] lg:gap-0">
-                    <img src={logo} alt="logo" className="h-[140px] w-[280px] object-cover" />
+                    <img src={logo} alt="logo" className="h-[60px] w-[280px] object-cover" />
                     <div>
                         <p className="text-lg text-white">Aloqaga chiqing</p>
                         <div className="mt-[8px] flex flex-col gap-1">
