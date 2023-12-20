@@ -1,9 +1,7 @@
-const Wrapper = ({children}) => {
-    return (
-        <div className="max-w-[1280px] mx-auto">
-            {children}
-        </div>
-    )
-}
+const Wrapper = ({ children }) => {
+	return (
+		<div className="w-full max-w-[1280px] px-[20px] mx-auto">{children}</div>
+	);
+};
 
-export default Wrapper
+export default Wrapper;
