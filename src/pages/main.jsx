@@ -78,11 +78,11 @@ const Main = () => {
 					</p>
 					<div className="grid grid-cols-5 gap-[15px] max-[1000px]:grid-cols-4 max-[800px]:grid-cols-3 max-[600px]:grid-cols-2 max-[376px]:grid-cols-1">
 						<a href="/" className="shadow-2xl">
-							<div className="hover:scale-105 transition-all cursor-pointer border-2 rounded-xl border-[#282631] py-[8px] px-[20px] w-full">
+							<div className="hover:scale-105 transition-all cursor-pointer border-2 rounded-xl border-[#282631] py-[8px] px-[20px] w-fit">
 								<img
 									src={"https://res.cloudinary.com/file-upload/image/upload/v1704764858/image_g4dv8l.png"}
 									alt="logo"
-									className="h-[105px] w-[200px] object-cover max-[600px]:w-full"
+									className="h-[105px] w-[200px] py-[25] object-cover"
 								/>
 							</div>
 						</a>
