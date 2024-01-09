@@ -40,7 +40,7 @@ const Main = () => {
 							to={"/portfolio"}
 							className="btn btn-ghost border-[#5D45FD] hover:bg-[#4d42c5] btn-primary max-[360px]:text-[12px]"
 						>
-							Loyihlararimizni ko'ring{" "}
+							Loyihalarimizni ko'ring{" "}
 							<i className="fa-solid fa-chevron-right"></i>
 						</Link>
 					</div>
