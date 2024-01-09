@@ -74,7 +74,7 @@ const Main = () => {
 				</div>
 				<div className="mt-[100px]">
 					<p className="text-center font-[700] text-xl text-white uppercase mb-4 max-md:text-[18px]">
-						10+ Biznes loyihalar ishongan
+						10+ Biznes loyihalar bizga ishongan
 					</p>
 					<div className="grid grid-cols-5 gap-[15px] max-[1000px]:grid-cols-4 max-[800px]:grid-cols-3 max-[600px]:grid-cols-2 max-[376px]:grid-cols-1">
 						<a href="/" className="shadow-2xl">
@@ -82,7 +82,7 @@ const Main = () => {
 								<img
 									src={"https://res.cloudinary.com/file-upload/image/upload/v1704764858/image_g4dv8l.png"}
 									alt="logo"
-									className="h-[105px] w-[200px] object-cover max-[600px]:w-full"
+									className="h-[105px] w-[200px] object-fill max-[600px]:w-full"
 								/>
 							</div>
 						</a>
