@@ -82,7 +82,7 @@ const Main = () => {
 								<img
 									src={"https://res.cloudinary.com/file-upload/image/upload/v1704764858/image_g4dv8l.png"}
 									alt="logo"
-									className="h-[105px] w-[200px] object-none max-[600px]:w-full"
+									className="h-[105px] w-[200px] object-fit max-[600px]:w-full"
 								/>
 							</div>
 						</a>
