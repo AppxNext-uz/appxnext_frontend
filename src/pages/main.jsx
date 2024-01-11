@@ -1,5 +1,8 @@
 import Wrapper from "../layout/wrapper";
 import logo from "../assets/logo.png";
+import mobileDevelopment from "../assets/mobile-development.png";
+import webSite from "../assets/world-wide-web.png";
+import bot from "../assets/bot.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
@@ -139,7 +142,7 @@ const Main = () => {
 				<div className="mt-[50px] grid grid-cols-3 gap-[15px] max-[800px]:grid-cols-2 max-[520px]:grid-cols-1">
 					<div className="border-2 shadow-2xl border-[#4A494E] hover:-translate-y-1 transition-all rounded-2xl py-[35px] px-[20px] w-full max-[1000px]:py-[20px]">
 						<img
-							src={"https://cdn-icons-png.flaticon.com/512/1875/1875043.png"}
+							src={mobileDevelopment}
 							alt="logo"
 							className="h-[100px] w-[100px] rounded-xl object-cover py-[10px] px-[10px] bg-[#34333B] max-[376px]:w-[80px] max-[376px]:h-[80px]"
 						/>
@@ -156,7 +159,7 @@ const Main = () => {
 					</div>
 					<div className="border-2 shadow-2xl border-[#4A494E] hover:-translate-y-1 transition-all rounded-2xl py-[35px] px-[20px] w-full max-[1000px]:py-[20px]">
 						<img
-							src={"https://cdn-icons-png.flaticon.com/512/5612/5612989.png"}
+							src={webSite}
 							alt="logo"
 							className="h-[100px] w-[100px] rounded-xl object-cover py-[10px] px-[10px] bg-[#34333B] max-[376px]:w-[80px] max-[376px]:h-[80px]"
 						/>
@@ -174,68 +177,16 @@ const Main = () => {
 					</div>
 					<div className="border-2 shadow-2xl border-[#4A494E] hover:-translate-y-1 transition-all rounded-2xl py-[35px] px-[20px] w-full max-[1000px]:py-[20px]">
 						<img
-							src={logo}
+							src={bot}
 							alt="logo"
 							className="h-[100px] w-[100px] rounded-xl object-cover py-[10px] px-[10px] bg-[#34333B] max-[376px]:w-[80px] max-[376px]:h-[80px]"
 						/>
 						<h1 className="text-xl text-white font-[700] mt-[20px]">
-							SEO optimallashtirish
+							Telegram bot
 						</h1>
 						<p className="max-w-[370px] text-[18px] mt-[10px] max-[900px]:text-[16px]">
 							Sizning biznesingizni targ'ib qilish uchun biz qidiruv tizimlari
 							bilan ishlaymiz, shunda saytingiz yuqori o'rinlarda bo'ladi.
-						</p>
-						<div className="mt-[20px] border-2 border-[#4A494E] hover:text-black cursor-pointer rounded-lg hover:bg-white hover:border-0 transition-all flex justify-center items-center h-[60px] w-[60px] max-[1000px]:w-[45px] max-[1000px]:h-[45px]">
-							<i className="fa-solid text-lg fa-chevron-right"></i>
-						</div>
-					</div>
-					<div className="border-2 shadow-2xl border-[#4A494E] hover:-translate-y-1 transition-all rounded-2xl py-[35px] px-[20px] w-full max-[1000px]:py-[20px]">
-						<img
-							src={logo}
-							alt="logo"
-							className="h-[100px] w-[100px] rounded-xl object-cover py-[10px] px-[10px] bg-[#34333B] max-[376px]:w-[80px] max-[376px]:h-[80px]"
-						/>
-						<h1 className="text-xl text-white font-[700] mt-[20px]">
-							Semantik tartib
-						</h1>
-						<p className="max-w-[370px] text-[18px] mt-[10px] max-[900px]:text-[16px]">
-							Bizning Verstalshiklarimiz juda tajribali, ular juda tez ishlaydi,
-							1=1 aniqlik va moslashuvchanlikni yaratadi.
-						</p>
-						<div className="mt-[20px] border-2 border-[#4A494E] hover:text-black cursor-pointer rounded-lg hover:bg-white hover:border-0 transition-all flex justify-center items-center h-[60px] w-[60px] max-[1000px]:w-[45px] max-[1000px]:h-[45px]">
-							<i className="fa-solid text-lg fa-chevron-right"></i>
-						</div>
-					</div>
-					<div className="border-2 shadow-2xl border-[#4A494E] hover:-translate-y-1 transition-all rounded-2xl py-[35px] px-[20px] w-full max-[1000px]:py-[20px]">
-						<img
-							src={logo}
-							alt="logo"
-							className="h-[100px] w-[100px] rounded-xl object-cover py-[10px] px-[10px] bg-[#34333B] max-[376px]:w-[80px] max-[376px]:h-[80px]"
-						/>
-						<h1 className="text-xl text-white font-[700] mt-[20px]">
-							API bilan ishlash
-						</h1>
-						<p className="max-w-[370px] text-[18px] mt-[10px] max-[900px]:text-[16px]">
-							Biz sizning API-ni xatosiz yoki muammosiz bog'laymiz, biz API va
-							ma'lumotlar bazasini yaratamiz va agar xohlasangiz, real vaqt
-							rejimida qo'shamiz.
-						</p>
-						<div className="mt-[20px] border-2 border-[#4A494E] hover:text-black cursor-pointer rounded-lg hover:bg-white hover:border-0 transition-all flex justify-center items-center h-[60px] w-[60px] max-[1000px]:w-[45px] max-[1000px]:h-[45px]">
-							<i className="fa-solid text-lg fa-chevron-right"></i>
-						</div>
-					</div>
-					<div className="border-2 shadow-2xl border-[#4A494E] hover:-translate-y-1 transition-all rounded-2xl py-[35px] px-[20px] w-full max-[1000px]:py-[20px]">
-						<img
-							src={logo}
-							alt="logo"
-							className="h-[100px] w-[100px] rounded-xl object-cover py-[10px] px-[10px] bg-[#34333B] max-[376px]:w-[80px] max-[376px]:h-[80px]"
-						/>
-						<h1 className="text-xl text-white font-[700] mt-[20px]">
-							Siz xohlagan deyarli hamma narsa
-						</h1>
-						<p className="max-w-[370px] text-[18px] mt-[10px] max-[900px]:text-[16px]">
-							Bizda katta tajribaga ega dasturchilar bor, biz siz o'ylagan
-							deyarli hamma narsani arzon narxlarda va shartlarda bajara olamiz.
 						</p>
 						<div className="mt-[20px] border-2 border-[#4A494E] hover:text-black cursor-pointer rounded-lg hover:bg-white hover:border-0 transition-all flex justify-center items-center h-[60px] w-[60px] max-[1000px]:w-[45px] max-[1000px]:h-[45px]">
 							<i className="fa-solid text-lg fa-chevron-right"></i>

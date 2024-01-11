@@ -31,7 +31,7 @@ const Navbar = () => {
 					<NavbarLink link={"/xizmatlar"}>Xizmatlar</NavbarLink>
 					<NavbarLink link={"/about"}>Biz haqimizda</NavbarLink>
 				</div>
-				<div className="drawer lg:hidden z-50 absolute w-full top-[10px] left-[10px] drawer-end">
+				<div className="drawer lg:hidden z-50 absolute w-full top-[10px] drawer-end">
 					<input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
 					<div className="drawer-content absolute left-[10px] top-[10px]">
 						<label
