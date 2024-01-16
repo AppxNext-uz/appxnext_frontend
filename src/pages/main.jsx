@@ -299,7 +299,7 @@ const Main = () => {
 
 				<div className="mt-[100px]">
                             <div>
-                                <p className="tracking-widest text-[#998DE2]">PRICING</p>
+                                <p className="tracking-widest text-[#998DE2]">NARXLAR</p>
                                 <h2 className="text-4xl text-white font-[700] mt-[10px]">One fixed price to get <br /> your project done <i className="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[28px] from-[#A599FC] to-[#5E46FF]"></i></h2>
                                 <p className="text-[18px] mt-[8px] max-w-2xl">Your custom on-demand team for only a single payment</p>
                             </div>
