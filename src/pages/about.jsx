@@ -24,15 +24,13 @@ const About = () => {
 								Biz mijozlarimizga innovatsiyalar va zamonaviy texnologiyalardan
 								voz kechmagan holda yuqori sifatli, ishonchli va
 								foydalanuvchilarga qulay dasturiy yechimlarni taklif qilamiz.
-								“APPXNEXT IT GROUP” kompaniyasi foydalanuvchilarga fotosuratlar, videolar
-								va musiqalarni oqilona tahrirlash, tartibga solish, zaxiralash
-								yoki almashish imkonini beruvchi dasturiy ilovalar va
+								“APPXNEXT IT GROUP” kompaniyasi foydalanuvchilarga dasturiy ilovalar va
 								platformalarni ishlab chiqadi. Bizning kompaniya Raqamlashtirish
 								sohasida 20 dan ortiq muvafaqqiyatli loyihalarni amalga oshirish
 								bilan birga, ularni texnik qo‘llab-quvvatlash va sifatli
 								dasturiy ta’minotini amalga oshirish bilan shug’ullanadi.
 								Kompaniyamizda 20 ga yaqin yuqori malakali loyiha menedjerlari,
-								full stack dasturchilar, testlovchilar, UI/UX hamda grafik
+								full stack dasturchilar, UI/UX hamda grafik
 								dizaynerlar faoliyat yuritadi.
 							</p>
 						</div>
