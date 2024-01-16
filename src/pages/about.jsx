@@ -24,7 +24,7 @@ const About = () => {
 								Biz mijozlarimizga innovatsiyalar va zamonaviy texnologiyalardan
 								voz kechmagan holda yuqori sifatli, ishonchli va
 								foydalanuvchilarga qulay dasturiy yechimlarni taklif qilamiz.
-								“SOFT IT” kompaniyasi foydalanuvchilarga fotosuratlar, videolar
+								“APPXNEXT IT GROUP” kompaniyasi foydalanuvchilarga fotosuratlar, videolar
 								va musiqalarni oqilona tahrirlash, tartibga solish, zaxiralash
 								yoki almashish imkonini beruvchi dasturiy ilovalar va
 								platformalarni ishlab chiqadi. Bizning kompaniya Raqamlashtirish
