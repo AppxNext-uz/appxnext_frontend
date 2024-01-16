@@ -182,7 +182,7 @@ const Main = () => {
 							className="h-[100px] w-[100px] rounded-xl object-cover py-[10px] px-[10px] bg-[#34333B] max-[376px]:w-[80px] max-[376px]:h-[80px]"
 						/>
 						<h1 className="text-xl text-white font-[700] mt-[20px]">
-							Telegram bot
+							Telegram botlar
 						</h1>
 						<p className="max-w-[370px] text-[18px] mt-[10px] max-[900px]:text-[16px]">
 							Sizning biznesingizni targ'ib qilish uchun biz qidiruv tizimlari
