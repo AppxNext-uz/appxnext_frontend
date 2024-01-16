@@ -297,7 +297,7 @@ const Main = () => {
 
 				{/* Pricing */}
 
-				{/* <div className="mt-[100px]">
+				<div className="mt-[100px]">
                             <div>
                                 <p className="tracking-widest text-[#998DE2]">PRICING</p>
                                 <h2 className="text-4xl text-white font-[700] mt-[10px]">One fixed price to get <br /> your project done <i className="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[28px] from-[#A599FC] to-[#5E46FF]"></i></h2>
@@ -347,7 +347,7 @@ const Main = () => {
                                     <button className="btn w-full mt-[35px] btn-ghost border-[#5D45FD] hover:bg-[#4d42c5] btn-primary">View work <i className="fa-solid fa-chevron-right"></i></button>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
 			</div>
 		</Wrapper>
 	);
