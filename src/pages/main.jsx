@@ -168,8 +168,7 @@ const Main = () => {
 						</h1>
 						<p className="max-w-[370px] text-[18px] mt-[10px] max-[900px]:text-[16px]">
 							So'nggi texnologiyalardan foydalangan holda, xohlagan
-							qiyinchilikdagi sizga kerakli web saytlarni siz xohlagandek qilib
-							qilib beramiz.
+							qiyinchilikdagi sizga kerakli web saytlarni siz xohlagandek qilib beramiz.
 						</p>
 						<div className="mt-[20px] border-2 border-[#4A494E] hover:text-black cursor-pointer rounded-lg hover:bg-white hover:border-0 transition-all flex justify-center items-center h-[60px] w-[60px] max-[1000px]:w-[45px] max-[1000px]:h-[45px]">
 							<i className="fa-solid text-lg fa-chevron-right"></i>
