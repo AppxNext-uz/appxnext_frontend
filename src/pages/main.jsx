@@ -201,7 +201,7 @@ const Main = () => {
 							<i className="fa-solid rotate-45 ml-5 fa-star text-transparent font-extrabold bg-clip-text bg-gradient-to-r text-[28px] from-[#A599FC] to-[#5E46FF] max-[650px]:ml-2 max-[560px]:ml-0 max-[465px]:text-[22px]"></i>
 						</h2>
 						<p className="text-[18px] mt-[8px] max-w-2xl max-[450px]:text-[16px] max-[450px]:mt-[2px]">
-							Jamoamiz bajargan so'nggi ishlarni ko'rishingiz mumkin.
+							Biz qilgan so'nggi ishlarni ko'rishingiz mumkin.
 						</p>
 					</div>
 					<div className="mt-[50px] grid grid-cols-3 gap-3 w-full max-sm:grid-cols-2 max-[390px]:grid-cols-1">
